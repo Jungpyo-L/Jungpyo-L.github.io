@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: My Website # the website title (if blank, full name will be used instead)
+title: Jungpyo Lee # the website title (if blank, full name will be used instead)
 first_name: Jungpyo
 middle_name:
 last_name: Lee
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Please reach out to me by email (jungpyolee at berkeley dot edu).
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -57,7 +57,8 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
-posts_in_search: true
+posts_in_search: false # al-folio demo posts in _posts/; set true if you publish a blog
+search_exclude_collections: [news, books] # remove entries when you add your own news/books
 bib_search: true
 
 # Dimensions
@@ -128,17 +129,19 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-    categories: [external-posts]
-    tags: [medium]
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
-    categories: [external-posts]
-    tags: [google]
+# Disabled: build fetches RSS/URLs at compile time (needs network). Re-enable if you use the blog.
+external_sources: []
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
+#     categories: [external-posts]
+#     tags: [medium]
+#   - name: Google Blog
+#     posts:
+#       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+#         published_date: 2024-05-14
+#     categories: [external-posts]
+#     tags: [google]
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -200,6 +203,8 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _posts/2023-07-12-post-bibliography.md
+  - _bibliography/papers_examples.bib
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -279,8 +284,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Lee]
+  first_name: [Jungpyo]
 
   style: apa
   locale: en
@@ -335,7 +340,9 @@ filtered_bibtex_keywords:
     pmid,
     poster,
     preview,
+    project,
     selected,
+    status,
     slides,
     supp,
     video,

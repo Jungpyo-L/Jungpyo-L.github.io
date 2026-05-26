@@ -1,9 +1,45 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Publication badge colors (see _layouts/bib.liquid).
+#
+# Priority:
+# 1. `abbr` entry with `color` (e.g. Under Review, In Prep)
+# 2. Else @article → _journal, @inproceedings → _conference
+# 3. Else theme default (--global-theme-color)
+#
+# Optional: per-venue `url` when `abbr` matches (TRO, ICRA, …).
 
-"PhysRev":
-  url: https://journals.aps.org/
+# Manuscript status (abbr text optional; sorting uses `status` in papers.bib)
+"Under Review":
+  color: "#c05621"
 
-"Vision":
-  color: "#009f36"
+"In Prep":
+  color: "#64748b"
+
+# Published — fallback colors by BibTeX type
+_journal:
+  color: "#2563eb"
+
+_conference:
+  color: "#0f766e"
+
+# Optional journal links (no color → uses _journal color)
+"TRO":
+  url: https://www.ieee-ras.org/publications/t-ro
+
+"TNSRE":
+  url: https://www.embs.org/tnsre
+
+"Lab Chip":
+  url: https://www.rsc.org/journals-books-databases/about-journals/lab-on-a-chip/
+
+# Optional conference links (no color → uses _conference color)
+"ICRA":
+  url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
+
+"IROS":
+  url: https://www.iros.org/
+
+"MEMS":
+  url: https://www.mems-conf.org/
+
+"SpaceOps":
+  url: https://www.spaceops.org/

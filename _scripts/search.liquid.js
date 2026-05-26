@@ -80,7 +80,9 @@ ninja.data = [
   {%- endif -%}
   {%- for collection in site.collections -%}
     {%- if collection.label != 'posts' -%}
+      {%- if site.search_exclude_collections and site.search_exclude_collections contains collection.label -%}{%- continue -%}{%- endif -%}
       {%- for item in collection.docs -%}
+        {%- if item.example == true or item.published == false -%}{%- continue -%}{%- endif -%}
         {
           {%- if item.inline -%}
             {%- assign title = item.content | newline_to_br | replace: "<br />", " " | replace: "<br/>", " " | strip_html | strip_newlines | escape | strip -%}
