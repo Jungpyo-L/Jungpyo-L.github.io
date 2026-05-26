@@ -3,7 +3,7 @@
 Put photos and GIFs for each project page under the matching subfolder. Reference them in `_projects/<slug>.md` with:
 
 ```liquid
-{% include figure.liquid path="assets/img/projects/smart-suction-cup/your-file.gif" class="img-fluid rounded z-depth-1" %}
+{% raw %}{% include figure.liquid path="assets/img/projects/smart-suction-cup/your-file.gif" class="img-fluid rounded z-depth-1" %}{% endraw %}
 ```
 
 | Folder                        | Project page                       |
