@@ -58,9 +58,9 @@ cv:
     Experience:
       - company: Embodied Dexterity Group, University of California, Berkeley
         position: Postdoctoral Scholar
-        location: Berkeley, CA
+        location: Berkeley, CA, USA
         start_date: 2024
-        end_date: Present
+        end_date: present
         summary: Researching on grasping and manipulation in robotic and human-robot systems
         highlights:
           - Grasping and Manipulation

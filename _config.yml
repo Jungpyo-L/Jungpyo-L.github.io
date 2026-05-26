@@ -203,6 +203,7 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _posts/
   - _posts/2023-07-12-post-bibliography.md
   - _bibliography/papers_examples.bib
   - purgecss.config.js
@@ -268,7 +269,7 @@ terser:
 
 jekyll-archives:
   posts:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    enabled: [] # blog disabled (exclude _posts/)
     permalinks:
       year: "/blog/:year/"
       tags: "/blog/:type/:name/"
