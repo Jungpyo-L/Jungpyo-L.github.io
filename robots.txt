@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://Jungpyo-L.github.io/sitemap.xml
+Sitemap: https://jungpyolee.com/sitemap.xml
