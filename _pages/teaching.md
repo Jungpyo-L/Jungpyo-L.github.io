@@ -66,6 +66,7 @@ nav_order: 5
   <p class="ts-subtitle">Current graduate students</p>
   <ul class="ts-people">
     <li class="ts-person"><strong>Jadesola Aderibigbe</strong><span class="ts-affil">UC Berkeley</span></li>
+    <li class="ts-person"><strong>Ben Davis</strong><span class="ts-affil">UC Berkeley</span></li>
     <li class="ts-person"><strong>Gia Jeong</strong><span class="ts-affil">UC Berkeley</span></li>
     <li class="ts-person"><strong>Isabel Morales</strong><span class="ts-affil">UC Berkeley</span></li>
     <li class="ts-person"><strong>Sun Zheng</strong><span class="ts-affil">CUHK</span></li>
