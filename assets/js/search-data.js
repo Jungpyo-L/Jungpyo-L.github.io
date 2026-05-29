@@ -54,7 +54,7 @@ ninja.data = [{
               window.location.href = "/projects/brain-machine-interface/";
             },},{id: "projects-dorsal-grasper",
           title: 'Dorsal Grasper',
-          description: "Wearable assistive grasping for people with spinal cord injury. UC Berkeley, Embodied Dexterity Group.",
+          description: "Wearable supernumerary grasping for people with C5–C7 spinal cord injury. UC Berkeley, Embodied Dexterity Group.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/dorsal-grasper/";
             },},{id: "projects-smart-suction-cup",
