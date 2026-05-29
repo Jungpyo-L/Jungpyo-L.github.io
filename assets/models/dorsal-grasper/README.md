@@ -1,10 +1,10 @@
 # Dorsal Grasper 3D models
 
-| File | Label on project page |
-|------|------------------------|
-| `DorsalGrasper1.glb` | Dorsal Grasper 1.0 |
-| `DorsalGrasper2.glb` | Dorsal Grasper 2.0 |
-| `DorsalGrasper3.glb` | Dorsal Grasper 3.0 |
+| File                       | Label on project page  |
+| -------------------------- | ---------------------- |
+| `DorsalGrasper1.glb`       | Dorsal Grasper 1.0     |
+| `DorsalGrasper2.glb`       | Dorsal Grasper 2.0     |
+| `DorsalGrasper3.glb`       | Dorsal Grasper 3.0     |
 | `PassiveDorsalGrasper.glb` | Passive Dorsal Grasper |
 
 Filenames are case-sensitive on Linux / GitHub Pages.
