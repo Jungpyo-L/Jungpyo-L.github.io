@@ -44,7 +44,7 @@ As shown in the videos below, when the cup is near an object **edge**, haptic se
 
 ### Bin-picking with adversarial objects
 
-We implemented haptic search in a pick-and-place bin-picking task using **19 adversarial objects** deliberately chosen to be **hard to capture with a vision system**. Guided by internal flow measurements, model-based haptic search improved grasp success by up to **2.5×** compared with a state-of-the-art vision-only baseline (Dex-Net 4.0). This work was published in *IEEE Transactions on Robotics* (T-RO) and was selected as an **Editor's Choice** article by *Science Robotics*.
+We implemented haptic search in a pick-and-place bin-picking task using **19 adversarial objects** deliberately chosen to be **hard to capture with a vision system**. Guided by internal flow measurements, model-based haptic search improved grasp success by up to **2.5×** compared with a state-of-the-art vision-only baseline (Dex-Net 4.0). This work was published in _IEEE Transactions on Robotics_ (T-RO) and was selected as an **Editor's Choice** article by _Science Robotics_.
 
 <div class="row project-media-paired align-items-end">
   <div class="col-12 col-sm project-media-paired__gif mt-3 mt-md-0">
