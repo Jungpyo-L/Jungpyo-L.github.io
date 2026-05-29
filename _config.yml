@@ -385,7 +385,7 @@ imagemagick:
     - ".jpeg"
     - ".png"
     - ".tiff"
-    - ".gif"
+    # .gif excluded — WebP conversion corrupts animation and causes noisy artifacts
   output_formats:
     webp: "-auto-orient -quality 85"
 

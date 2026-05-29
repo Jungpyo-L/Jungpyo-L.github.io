@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: Dorsal Grasper
 description: Wearable assistive grasping for people with spinal cord injury. UC Berkeley, Embodied Dexterity Group.
 importance: 2

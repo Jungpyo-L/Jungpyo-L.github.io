@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: Ultrasound Neuromodulation
 description: Ultrasound-based neuromodulation. Yonsei University and KIST.
 importance: 5

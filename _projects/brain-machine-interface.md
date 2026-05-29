@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: Brain–Machine Interface
 description: Minimally invasive ECoG and brain–machine interface research. Yonsei University and KIST.
 importance: 4

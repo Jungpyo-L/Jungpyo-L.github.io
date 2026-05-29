@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: Acoustic Tactile Sensing
 description: Acoustic tactile sensing for robotic manipulation and interaction. UC Berkeley.
 importance: 3
