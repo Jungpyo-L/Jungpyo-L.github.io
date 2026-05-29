@@ -1,0 +1,63 @@
+/*****************************************************************************
+ * model-viewer (GLB / glTF on project pages)
+ *****************************************************************************/
+
+.model-viewer-wrap {
+  overflow: hidden;
+  margin-top: 1.25rem;
+  margin-bottom: 2rem;
+  border: 1px solid var(--global-divider-color);
+
+  model-viewer {
+    display: block;
+  }
+
+  .model-viewer-caption {
+    margin: 0;
+    padding: 0.6rem 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--global-text-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    line-height: 1.3;
+  }
+
+  .model-viewer-hint {
+    margin: 0;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+    text-align: center;
+    border-top: 1px solid var(--global-divider-color);
+  }
+
+  &--compact {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.model-viewer-grid {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+
+  > [class*='col-'] {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+
+  .model-viewer-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+  .model-viewer-grid-hint {
+    margin: 0.25rem 0 2rem;
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+    text-align: center;
+  }
+}

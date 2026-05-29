@@ -1,0 +1,33 @@
+{% comment %}
+  Interactive 3D model (glTF / GLB). Requires page.model_viewer: true in front matter.
+  Usage:
+    {% include model_viewer.liquid path="assets/models/dorsal-grasper/DorsalGrasper1.glb" caption="Dorsal Grasper 1.0" compact=true show_hint=false %}
+{% endcomment %}
+{% assign model_path = include.path | default: 'assets/models/dorsal-grasper/DorsalGrasper1.glb' %}
+{% if include.compact %}
+  {% assign model_height = include.height | default: '280px' %}
+{% else %}
+  {% assign model_height = include.height | default: '420px' %}
+{% endif %}
+{% assign model_alt = include.alt | default: include.caption | default: '3D model' %}
+
+<div class="model-viewer-wrap rounded z-depth-1{% if include.compact %} model-viewer-wrap--compact{% endif %}">
+  {% if include.caption %}
+    <p class="model-viewer-caption">{{ include.caption }}</p>
+  {% endif %}
+  <model-viewer
+    src="{{ model_path | relative_url }}"
+    alt="{{ model_alt }}"
+    camera-controls
+    touch-action="pan-y"
+    shadow-intensity="1"
+    exposure="1"
+    {% unless include.auto_rotate == false %}
+      auto-rotate
+    {% endunless %}
+    style="width: 100%; height: {{ model_height }}; background-color: var(--global-bg-color);"
+  ></model-viewer>
+  {% unless include.show_hint == false %}
+    <p class="model-viewer-hint">Drag to rotate · Scroll or pinch to zoom</p>
+  {% endunless %}
+</div>

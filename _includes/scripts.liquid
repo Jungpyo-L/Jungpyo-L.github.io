@@ -30,6 +30,14 @@
   <script defer src="{{ '/assets/js/masonry.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 {% endif %}
 
+{% if page.model_viewer %}
+  <!-- Google model-viewer (GLB / glTF) -->
+  <script
+    type="module"
+    src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"
+  ></script>
+{% endif %}
+
 {% if page.mermaid and page.mermaid.enabled %}
   <!-- Mermaid and D3 -->
   <script
