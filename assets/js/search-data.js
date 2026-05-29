@@ -59,7 +59,7 @@ ninja.data = [{
               window.location.href = "/projects/dorsal-grasper/";
             },},{id: "projects-smart-suction-cup",
           title: 'Smart Suction Cup',
-          description: "Compliant suction and manipulation for robust grasping in unstructured environments. UC Berkeley, Embodied Dexterity Group.",
+          description: "Multi-chamber suction end effector with internal airflow sensing and haptic search for robust industrial grasping. UC Berkeley, Embodied Dexterity Group.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/smart-suction-cup/";
             },},{id: "projects-ultrasound-neuromodulation",
