@@ -95,6 +95,22 @@ With a stable grasp formed on the back of the hand, users can manipulate objects
   </div>
 </div>
 
+## Evaluation in unstructured daily environments
+
+We visited **10 participants with spinal cord injury** across the **Bay Area** and evaluated the Dorsal Grasper in their **homes and everyday settings**—outside controlled lab setups. Rather than prescribing a fixed task list, we asked each participant **what they wanted to accomplish** and had them attempt those **self-selected tasks** with the device. This user-directed approach captured how assistive grasping fits into real routines, from kitchen and household chores to other activities each person prioritized.
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/projects/dorsal-grasper/InHomeLaundry.gif" title="In-home evaluation — laundry task" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/projects/dorsal-grasper/InHomeFridge.gif" title="In-home evaluation — refrigerator task" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/projects/dorsal-grasper/InHomeMilk.gif" title="In-home evaluation — handling milk" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+
 ## Ongoing work
 
 We are extending this line in two directions currently **under review**:
