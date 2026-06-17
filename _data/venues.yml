@@ -14,6 +14,9 @@
 "In Prep":
   color: "#64748b"
 
+"Accepted":
+  color: "#15803d"
+
 # Published — fallback colors by BibTeX type
 _journal:
   color: "#2563eb"

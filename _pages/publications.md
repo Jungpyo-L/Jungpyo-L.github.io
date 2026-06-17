@@ -15,11 +15,9 @@ nav_order: 2
 
 <div class="publications">
 
-<h2 class="bibliography">In preparation</h2>
-{% bibliography --group_by none --query @*[status=inprep]* %}
-
-<h2 class="bibliography">Under review</h2>
-{% bibliography --group_by none --query @*[status=ur]* %}
+{% include bibliography_status_section.liquid title="In preparation" status="inprep" %}
+{% include bibliography_status_section.liquid title="Under review" status="ur" %}
+{% include bibliography_status_section.liquid title="Accepted" status="accepted" %}
 
 {% bibliography --query @*[year]* %}
 
