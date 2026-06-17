@@ -1,5 +1,5 @@
 {% assign status_count = site.data.publication_statuses[include.status] | default: 0 %}
 {% if status_count > 0 %}
-<h2 class="bibliography">{{ include.title }}</h2>
-{% bibliography --group_by none --query @*[status={{ include.status }}]* %}
+  <h2 class="bibliography">{{ include.title }}</h2>
+  {% bibliography --group_by none --query @*[status={{ include.status }}]* %}
 {% endif %}
