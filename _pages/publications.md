@@ -13,6 +13,8 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
+<p class="text-muted small mb-4"><sup>*</sup> co-first author &nbsp;·&nbsp; <sup>†</sup> corresponding author</p>
+
 <div class="publications">
 
 {% include bibliography_status_section.liquid title="In preparation" status="inprep" %}
