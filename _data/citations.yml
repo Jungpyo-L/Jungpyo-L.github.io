@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-13'
+  last_updated: '2026-07-27'
 papers:
   Y-o1GEQAAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -34,11 +34,11 @@ papers:
     title: Facile approach to synthesize highly fluorescent multicolor emissive carbon dots via surface functionalization for cellular imaging
     year: '2018'
   Y-o1GEQAAAAJ:W7OEmFMy1HYC:
-    citations: 26
+    citations: 27
     title: Cubesat developmentfor canyval-X mission
     year: '2016'
   Y-o1GEQAAAAJ:WF5omc3nYNoC:
-    citations: 296
+    citations: 297
     title: Ultrasonic Neuromodulation via Astrocytic TRPA1
     year: '2019'
   Y-o1GEQAAAAJ:Y0pCki6q_DkC:
@@ -70,7 +70,7 @@ papers:
     title: Haptic search with the Smart Suction Cup on adversarial objects
     year: '2024'
   Y-o1GEQAAAAJ:ufrVoPGSRksC:
-    citations: 29
+    citations: 30
     title: A minimally invasive flexible electrode array for simultaneous recording of ECoG signals from multiple brain regions
     year: '2021'
   Y-o1GEQAAAAJ:zYLM7Y9cAGgC:
