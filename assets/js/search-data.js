@@ -37,7 +37,22 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "projects-3d-neuronal-culture-on-3d-graphene",
+        },{id: "news-our-tnsre-paper-on-supernumerary-dorsal-grasping-for-people-with-c5-c7-spinal-cord-injury-was-selected-as-an-ieee-embs-featured-article-and-covered-by-berkeley-engineering",
+          title: 'Our TNSRE paper on supernumerary dorsal grasping for people with C5–C7 spinal cord...',
+          description: "",
+          section: "News",},{id: "news-our-paper-enhanced-haptic-search-with-a-multi-chamber-suction-cup-using-reverse-flow-with-gia-jeong-and-hannah-stuart-was-accepted-to-iros-2026-see-the-smart-suction-cup-project",
+          title: 'Our paper “Enhanced Haptic Search with a Multi-chamber Suction Cup using Reverse Flow”...',
+          description: "",
+          section: "News",},{id: "news-attended-the-2026-nsf-frr-robotics-annual-meeting-in-pittsburgh-pa-sep-25-26-as-an-aspiring-pi-with-nsf-travel-support",
+          title: 'Attended the 2026 NSF FRR Robotics Annual Meeting in Pittsburgh, PA (Sep 25–26)...',
+          description: "",
+          section: "News",},{id: "news-attended-iros-2026-in-pittsburgh-pa-sep-27-oct-1-where-we-presented-our-work-on-haptic-search-with-a-multi-chamber-suction-cup-using-reverse-flow",
+          title: 'Attended IROS 2026 in Pittsburgh, PA (Sep 27 – Oct 1), where we...',
+          description: "",
+          section: "News",},{id: "news-demonstrated-the-suction-umi-and-the-berkeley-quad-hand-at-the-robotics-beyond-the-lab-outreach-event-at-uc-berkeley-photos-on-instagram",
+          title: 'Demonstrated the Suction UMI and the Berkeley QUAD Hand at the “Robotics Beyond...',
+          description: "",
+          section: "News",},{id: "projects-3d-neuronal-culture-on-3d-graphene",
           title: '3D Neuronal Culture on 3D Graphene',
           description: "Three-dimensional neuronal culture on three-dimensional graphene scaffolds. Yonsei University and KIST.",
           section: "Projects",handler: () => {
