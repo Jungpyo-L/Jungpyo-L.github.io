@@ -144,7 +144,7 @@ nav_order: 5
     <ul class="ts-events">
       <li>
         <time>Oct 10</time>
-        <span>Demonstrated the Suction UMI and the Berkeley QUAD Hand at the &ldquo;Robotics Beyond the Lab&rdquo; event (<a href="https://www.instagram.com/p/DehePDzl0Ew/?img_index=6">Instagram</a>).</span>
+        <span>Demonstrated the Suction UMI and the Berkeley QUAD Hand at the &ldquo;Robotics Beyond the Lab&rdquo; event at UC Berkeley (<a href="https://www.instagram.com/p/DehePDzl0Ew/?img_index=6">Instagram</a>).</span>
       </li>
       <li>
         <time>Feb 3</time>

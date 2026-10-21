@@ -1,5 +1,6 @@
 ---
 date: 2025-02-01
+date_label: Feb 2025 # shown instead of the full date
 inline: true
 ---
 
