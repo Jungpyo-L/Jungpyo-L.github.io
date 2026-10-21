@@ -143,6 +143,10 @@ nav_order: 5
     <h3 class="ts-year">2026</h3>
     <ul class="ts-events">
       <li>
+        <time>Oct 10</time>
+        <span>Demonstrated the Suction UMI and the Berkeley QUAD Hand at the &ldquo;Robotics Beyond the Lab&rdquo; event (<a href="https://www.instagram.com/p/DehePDzl0Ew/?img_index=6">Instagram</a>).</span>
+      </li>
+      <li>
         <time>Feb 3</time>
         <span>Guided undergraduate students at Korea Nazarene University through a robotics lab tour and discussed research on wearable assistive devices.</span>
       </li>
