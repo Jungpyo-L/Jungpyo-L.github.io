@@ -45,7 +45,7 @@ cv:
         start_date: 2015
         end_date: 2017
         # Thesis: "Enhancement of functional connectivity in three-dimensional neuronal culture"
-        # advisor: "Prof. Seong Chan Jung"
+        # advisor: "Prof. Seong Chan Jun"
 
       - institution: Yonsei University
         location: Seoul, South Korea
@@ -56,31 +56,36 @@ cv:
 
     Experience:
       - company: Embodied Dexterity Group, University of California, Berkeley
-        position: Postdoctoral Scholar
+        position: Doctoral Researcher → Postdoctoral Scholar (since Aug. 2024)
         location: Berkeley, CA, USA
-        start_date: 2024
+        start_date: 2019
         end_date: present
-        summary: Researching on grasping and manipulation in robotic and human-robot systems
+        summary: "Advisor: Prof. Hannah Stuart. Tactile sensing and robotic grasping; wearable assistive devices and human–robot collaboration."
         highlights:
           - Grasping and Manipulation
-          - Embodied Intelligence
+          - Tactile Sensing
           - Human-Robot Interaction
 
-      - company: Korea Institute of Science and Technology (KIST)
-        position: Commissioned Researcher
+      - company: Center for BioMicrosystems, Korea Institute of Science and Technology (KIST)
+        position: Research Trainee → Commissioned Researcher
         location: Seoul, South Korea
-        start_date: 2018
+        start_date: 2015
         end_date: 2019
-        highlights:
-          - Brain-Machine Interface
-          - Neural Modulation
+        summary: "Advisor: Dr. Il-Joo Cho. Brain–machine interfaces, biosensors, and neuromodulation."
+
+      - company: Nano Electro-Mechanical Device Lab, Yonsei University
+        position: Master's Research
+        location: Seoul, South Korea
+        start_date: 2015
+        end_date: 2017
+        summary: "Advisor: Prof. Seong Chan Jun. Nanomaterials and neural connectivity."
 
       - company: Astrodynamics and Control Lab, Yonsei University
-        position: Engineer
+        position: Engineer, Structural and Thermal Control Systems
         location: Seoul, South Korea
         start_date: 2014
         end_date: 2016
-        summary: Designing and building the structural and thermal systems for CubeSats
+        summary: "Advisor: Prof. Sang-Young Park. CANYVAL-X CubeSat mission."
 
     # Volunteer:
     #   - company: People's Climate March
@@ -94,20 +99,32 @@ cv:
     #       - "Men of the year 2014 by Time magazine"
 
     Awards:
+      - title: Best Presentation
+        date: 2025
+        awarder: 3rd Stanford x Berkeley Korean Researcher Academic Conference
+
       - title: Fung Institute Capstone Technical Leadership Award
-        authors:
-          - "Fung Institute at UC Berkeley"
         date: 2024
         awarder: Fung Institute at UC Berkeley
         url: https://funginstitute.berkeley.edu/capstone-showcase-2024/
         summary: Awarded to the MEng capstone team that most effectively demonstrates MEng Leadership principles-- identifying an opportunity; generating a solution; including and convincing stakeholders of the proposed solution.
 
-      - title: Korean Government Scholarship
-        authors:
-          - "Korean Government"
+      - title: Best Presentation
+        date: 2024
+        awarder: 2nd Stanford x Berkeley Korean Researcher Academic Conference
+
+      - title: Korean Government Scholarship for Graduate Study Overseas
         date: 2018
         awarder: Korean Government
-        summary: Awarded for Graduate Study Overseas
+        summary: Scholarship for 2019–2021
+
+      - title: Best Paper Award, Oral Session
+        date: 2017
+        awarder: 19th Korean MEMS Conference
+
+      - title: Best Paper Award
+        date: 2017
+        awarder: School of Mechanical Engineering, Yonsei University
 
     # Entries are not shown on the CV page; links to /publications/ (papers.bib) instead.
     Publications: []

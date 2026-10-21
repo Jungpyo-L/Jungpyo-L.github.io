@@ -74,11 +74,14 @@ nav_order: 5
 
   <p class="ts-subtitle">Current undergraduate students</p>
   <ul class="ts-people">
-    <li class="ts-person"><strong>Alahe Akhavan</strong><span class="ts-affil">UC Berkeley</span></li>
     <li class="ts-person"><strong>Jeongbin Sohn</strong><span class="ts-affil">GIST</span></li>
+    <li class="ts-person"><strong>Alex Chen</strong><span class="ts-affil">UC Berkeley</span></li>
+    <li class="ts-person"><strong>Ninad Atale</strong><span class="ts-affil">UC Berkeley</span></li>
+    <li class="ts-person"><strong>Emiliano Sanchez</strong><span class="ts-affil">UC Berkeley</span></li>
+    <li class="ts-person"><strong>Meaghan Pearson</strong><span class="ts-affil">UC Berkeley</span></li>
   </ul>
 
-  <p class="ts-subtitle">Current Berkeley MEng</p>
+  <p class="ts-subtitle">Past Berkeley MEng</p>
   <div class="ts-card-grid">
     <div class="ts-card">
       <div class="ts-card-meta">2025–2026</div>
@@ -90,18 +93,17 @@ nav_order: 5
       <div class="ts-card-title">Andrew Darmitzel, Michael Rubin, Li Li, Candice Xia</div>
       <p class="ts-card-desc">Open hardware for robotic trash sorting — next-generation smart suction cup</p>
     </div>
-  </div>
-
-  <p class="ts-subtitle">Past Berkeley MEng</p>
-  <div class="ts-card">
-    <div class="ts-card-meta">2023–2024</div>
-    <div class="ts-card-title">Jessica Boetticher, Adam Duong, Benjamin Margolis, Panos Pardalidis</div>
-    <p class="ts-card-desc">Next-generation assistive wearable for everyday grasping with spinal cord injury</p>
-    <a href="https://funginstitute.berkeley.edu/capstone-showcase-2024/">Fung Institute Capstone Technical Leadership Award</a>
+    <div class="ts-card">
+      <div class="ts-card-meta">2023–2024</div>
+      <div class="ts-card-title">Jessica Boetticher, Adam Duong, Benjamin Margolis, Panos Pardalidis</div>
+      <p class="ts-card-desc">Next-generation assistive wearable for everyday grasping with spinal cord injury</p>
+      <a href="https://funginstitute.berkeley.edu/capstone-showcase-2024/">Fung Institute Capstone Technical Leadership Award</a>
+    </div>
   </div>
 
   <p class="ts-subtitle">Past undergraduate students</p>
   <ul class="ts-past-list">
+    <li><strong>Alahe Akhavan</strong> — Graduate student, Johns Hopkins University</li>
     <li><strong>Licheng Yu</strong> — Product &amp; Process Development Engineer, Foxconn</li>
     <li><strong>Haoxiang (Lucas) Hung</strong> — Recycling Program Manager, Triple L Global</li>
     <li><strong>Derrick Ma</strong> — PhD student, Caltech</li>
@@ -111,11 +113,19 @@ nav_order: 5
 <section class="ts-section">
   <h2>Professional service</h2>
 
+  <p class="ts-subtitle">Editorial service</p>
+  <div class="ts-card">
+    <div class="ts-card-title">Associate Editor</div>
+    <p class="ts-card-desc">IEEE ICRA 2027 — Manipulation and Grasping 2</p>
+  </div>
+
   <p class="ts-subtitle">Reviewer activities</p>
   <ul class="ts-tags">
     <li>IEEE Trans. Robotics</li>
+    <li>IEEE/ASME Trans. Mechatronics</li>
     <li>IEEE RA-L</li>
-    <li>IEEE/RAS IROS</li>
+    <li>IEEE/RSJ IROS</li>
+    <li>J. Comput. Des. Eng.</li>
     <li>Front. Aging Neurosci.</li>
     <li>Front. Robot. AI</li>
     <li>Front. Med.</li>
@@ -144,7 +154,11 @@ nav_order: 5
     <ul class="ts-events">
       <li>
         <time>Oct 10</time>
-        <span>Demonstrated the Suction UMI and the Berkeley QUAD Hand at the &ldquo;Robotics Beyond the Lab&rdquo; event at UC Berkeley (<a href="https://www.instagram.com/p/DehePDzl0Ew/?img_index=6">Instagram</a>).</span>
+        <span>Demonstrated the Suction UMI and the Berkeley QUAD Hand for visitors at &ldquo;Robotics Beyond the Lab,&rdquo; UC Berkeley College of Engineering&rsquo;s Homecoming Weekend (<a href="https://www.instagram.com/p/DehePDzl0Ew/?img_index=6">event highlights</a>).</span>
+      </li>
+      <li>
+        <time>Aug 6</time>
+        <span>Led a lab tour and delivered a career talk for high school students from Siheung, Korea.</span>
       </li>
       <li>
         <time>Feb 3</time>
@@ -189,6 +203,10 @@ nav_order: 5
     <p class="ts-card-desc">
       Featured article in
       <a href="https://engineering.berkeley.edu/news/2025/02/new-assistive-device-enhances-grasping-for-people-with-spinal-cord-injuries/">Berkeley Engineering news</a>
+    </p>
+    <p class="ts-card-desc">
+      Featured in
+      <a href="https://www.rdworldonline.com/robotic-backhand-grasper-achieves-100-grasp-success-for-spinal-cord-injury-patients/">R&amp;D World Magazine</a>
     </p>
     <p class="ts-links">
       <a href="https://www.tiktok.com/@berkeley_engineering/video/7539281945730092343">TikTok</a>
