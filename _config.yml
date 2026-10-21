@@ -55,7 +55,7 @@ footer_fixed: true
 search_enabled: true
 socials_in_search: true
 posts_in_search: false # set true if you publish a blog
-search_exclude_collections: [news, books] # remove entries when you add your own news/books
+search_exclude_collections: [books] # remove entries when you add your own books
 bib_search: true
 
 # Dimensions
