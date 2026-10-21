@@ -9,11 +9,11 @@ last_name: Lee
 contact_note: >
   Please reach out to me by email (jungpyolee at berkeley dot edu).
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Jungpyo Lee — postdoctoral scholar at UC Berkeley working on robotic grasping and manipulation, tactile sensing, assistive wearable devices, and human-robot interaction.
 footer_text: ""
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Jungpyo Lee, robotics, grasping, manipulation, tactile sensing, suction cup, assistive robotics, human-robot interaction, UC Berkeley
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://jungpyolee.com # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -54,7 +54,7 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
-posts_in_search: false # al-folio demo posts in _posts/; set true if you publish a blog
+posts_in_search: false # set true if you publish a blog
 search_exclude_collections: [news, books] # remove entries when you add your own news/books
 bib_search: true
 
@@ -66,9 +66,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: https://jungpyolee.com/assets/img/prof_pic.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -96,7 +96,7 @@ lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false # no blog pages; set true with _pages/blog.md
 
 related_blog_posts:
   enabled: true
@@ -199,10 +199,6 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
-  - _posts/
-  - _posts/2023-07-12-post-bibliography.md
-  - _bibliography/papers_examples.bib
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -659,9 +655,7 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
+jekyll_get_json: [] # e.g. - data: resume / json: assets/json/resume.json (only needed for cv_format: jsonresume)
 
 jsonresume:
   - basics
