@@ -1,0 +1,74 @@
+/*****************************
+ * About page: Short / Long / Speaker bio switcher
+ *****************************/
+
+.bio-switcher {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+
+  button {
+    padding: 0.2rem 0.85rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--global-text-color-light);
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition:
+      color 0.15s,
+      border-color 0.15s;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+
+    &[aria-selected="true"] {
+      border-color: var(--global-theme-color);
+      color: var(--global-theme-color);
+      font-weight: 600;
+    }
+  }
+}
+
+.bio-panel[hidden] {
+  display: none;
+}
+
+.bio-speaker-note {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+
+  button {
+    padding: 0.15rem 0.75rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 4px;
+    background: transparent;
+    color: var(--global-text-color);
+    font-size: 0.85rem;
+    cursor: pointer;
+
+    &:hover {
+      border-color: var(--global-theme-color);
+      color: var(--global-theme-color);
+    }
+  }
+}
+
+.bio-speaker-text {
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--global-theme-color);
+  background: var(--global-code-bg-color);
+  border-radius: 0 4px 4px 0;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
