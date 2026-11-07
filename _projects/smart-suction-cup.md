@@ -33,10 +33,10 @@ As shown in the videos below, when the cup is near an object **edge**, haptic se
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/projects/smart-suction-cup/Lateral.gif" title="Lateral haptic search" class="img-fluid rounded z-depth-1" %}
+    {% include video.liquid path="assets/img/projects/smart-suction-cup/Lateral.mp4" title="Lateral haptic search" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true playsinline=true %}
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/projects/smart-suction-cup/Rotation.gif" title="Rotational haptic search" class="img-fluid rounded z-depth-1" %}
+    {% include video.liquid path="assets/img/projects/smart-suction-cup/Rotation.mp4" title="Rotational haptic search" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true playsinline=true %}
   </div>
 </div>
 
@@ -48,7 +48,7 @@ We implemented haptic search in a pick-and-place bin-picking task using **19 adv
 
 <div class="row project-media-paired align-items-end">
   <div class="col-12 col-sm project-media-paired__gif mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/projects/smart-suction-cup/Bin_picking.gif" title="Bin-picking with haptic search" class="img-fluid rounded z-depth-1" %}
+    {% include video.liquid path="assets/img/projects/smart-suction-cup/Bin_picking.mp4" title="Bin-picking with haptic search" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true playsinline=true %}
   </div>
   <div class="col-12 col-sm project-media-paired__png mt-3 mt-md-0">
     {% include figure.liquid path="assets/img/projects/smart-suction-cup/Bin_picking_result.png" title="Bin-picking success rate comparison" class="img-fluid rounded z-depth-1" %}
@@ -62,7 +62,7 @@ We implemented haptic search in a pick-and-place bin-picking task using **19 adv
     <p>Building on the same haptic search framework, we applied the Smart Suction Cup to <strong>regrasping printed circuit boards (PCBs)</strong> in an industrial recycling context—a collaborative project with Prof. Fei Chen at CUHK (as required by innoHK's collaboration policy). Waste PCBs are difficult to grip reliably because of uneven surfaces and unmodeled surface-mounted components that disrupt suction sealing. We studied regrasping on both stationary setups and <strong>conveyor belt systems</strong> with realistic vision-based grasp planners, demonstrating improved pick-and-place success in an industrial recycling workflow. This work was published at <strong>ICRA 2024</strong>.</p>
   </div>
   <div class="col-md-5 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/projects/smart-suction-cup/PCB_regrasping.gif" title="PCB regrasping on a conveyor belt" class="img-fluid rounded z-depth-1" %}
+    {% include video.liquid path="assets/img/projects/smart-suction-cup/PCB_regrasping.mp4" title="PCB regrasping on a conveyor belt" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true playsinline=true %}
   </div>
 </div>
 
@@ -73,7 +73,7 @@ We implemented haptic search in a pick-and-place bin-picking task using **19 adv
     <p>Beyond recovering from failed grasps, we extended the system to <strong>contour following</strong>—using chamber pressure feedback to track edges and planar contours on object surfaces. Because the sensor relies on internal airflow rather than vision or wear-prone contact transducers, it remains useful under occlusions and during sustained sliding contact. Experimental validation showed robust edge tracking at speeds up to <strong>3 cm/s</strong>. This work was published at <strong>IROS 2024</strong>.</p>
   </div>
   <div class="col-md-5 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/projects/smart-suction-cup/Contour_Following.gif" title="Haptic contour following" class="img-fluid rounded z-depth-1" %}
+    {% include video.liquid path="assets/img/projects/smart-suction-cup/Contour_Following.mp4" title="Haptic contour following" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true playsinline=true %}
   </div>
 </div>
 

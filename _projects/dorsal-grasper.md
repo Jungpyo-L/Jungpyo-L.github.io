@@ -61,7 +61,7 @@ Because the Dorsal Grasper grasps from the **back of the hand** rather than actu
     <p>Because grasping is <strong>human–robot collaborative</strong>, the user stays in direct control throughout release. As shown in the video, they <strong>drop the object first</strong> by relaxing wrist extension, then <strong>open the supernumerary fingers with a joystick</strong>. That direct control avoids the multi-stage pipeline of intent detection, command generation, and actuation delay common in other assistive systems, keeping interaction <strong>simple, predictable, and low-latency</strong> for activities of daily living.</p>
   </div>
   <div class="col-md-5 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/projects/dorsal-grasper/DG_cube_reduced_size.gif" title="Collaborative grasp and release via wrist extension" class="img-fluid rounded z-depth-1" %}
+    {% include video.liquid path="assets/img/projects/dorsal-grasper/DG_cube_reduced_size.mp4" title="Collaborative grasp and release via wrist extension" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true playsinline=true %}
   </div>
 </div>
 
@@ -75,10 +75,10 @@ With a stable grasp formed on the back of the hand, users can manipulate objects
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/projects/dorsal-grasper/Side_GRT_Bimanual_gif.gif" title="Grasp and Release Test — bimanual task" class="img-fluid rounded z-depth-1" %}
+    {% include video.liquid path="assets/img/projects/dorsal-grasper/Side_GRT_Bimanual_gif.mp4" title="Grasp and Release Test — bimanual task" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true playsinline=true %}
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/projects/dorsal-grasper/Side_GRT_joystick_gif.gif" title="Grasp and Release Test — single-hand with joystick" class="img-fluid rounded z-depth-1" %}
+    {% include video.liquid path="assets/img/projects/dorsal-grasper/Side_GRT_joystick_gif.mp4" title="Grasp and Release Test — single-hand with joystick" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true playsinline=true %}
   </div>
 </div>
 
@@ -91,7 +91,7 @@ With a stable grasp formed on the back of the hand, users can manipulate objects
     <p>Unlike the active versions, the supernumerary fingers are <strong>not actuated</strong>. Grasp force is therefore lower, and stable holds rely <strong>entirely on wrist extension</strong> rather than robotic finger closing. That trade-off reduces hardware complexity and daily burden, but limits the force and object range relative to powered Dorsal Graspers—a balance we are evaluating for practical deployment.</p>
   </div>
   <div class="col-md-5 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/projects/dorsal-grasper/PassiveDG.gif" title="Passive Dorsal Grasper" class="img-fluid rounded z-depth-1" %}
+    {% include video.liquid path="assets/img/projects/dorsal-grasper/PassiveDG.mp4" title="Passive Dorsal Grasper" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true playsinline=true %}
   </div>
 </div>
 
@@ -101,13 +101,13 @@ We visited **10 participants with spinal cord injury** across the **Bay Area** a
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/projects/dorsal-grasper/InHomeLaundry.gif" title="In-home evaluation — laundry task" class="img-fluid rounded z-depth-1" %}
+    {% include video.liquid path="assets/img/projects/dorsal-grasper/InHomeLaundry.mp4" title="In-home evaluation — laundry task" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true playsinline=true %}
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/projects/dorsal-grasper/InHomeFridge.gif" title="In-home evaluation — refrigerator task" class="img-fluid rounded z-depth-1" %}
+    {% include video.liquid path="assets/img/projects/dorsal-grasper/InHomeFridge.mp4" title="In-home evaluation — refrigerator task" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true playsinline=true %}
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/projects/dorsal-grasper/InHomeMilk.gif" title="In-home evaluation — handling milk" class="img-fluid rounded z-depth-1" %}
+    {% include video.liquid path="assets/img/projects/dorsal-grasper/InHomeMilk.mp4" title="In-home evaluation — handling milk" class="img-fluid rounded z-depth-1" autoplay=true loop=true muted=true playsinline=true %}
   </div>
 </div>
 
