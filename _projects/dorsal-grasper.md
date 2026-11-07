@@ -4,7 +4,7 @@ title: Dorsal Grasper
 description: Wearable supernumerary grasping for people with C5–C7 spinal cord injury. UC Berkeley, Embodied Dexterity Group.
 importance: 2
 category: Robotics
-img: assets/img/publication_preview/Preview_DG2.gif
+img: assets/img/publication_preview/Preview_DG2.mp4
 model_viewer: true
 ---
 

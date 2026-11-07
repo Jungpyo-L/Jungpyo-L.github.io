@@ -1,7 +1,18 @@
 <div class="col">
   <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
     <div class="card h-100 hoverable">
-      {% if project.img %}
+      {% assign img_ext = project.img | split: '.' | last %}
+      {% if project.img and img_ext == 'mp4' %}
+        {%
+          include video.liquid
+          path=project.img
+          class="card-img-top"
+          autoplay=true
+          loop=true
+          muted=true
+          playsinline=true
+        %}
+      {% elsif project.img %}
         {%
           include figure.liquid
           loading="eager"

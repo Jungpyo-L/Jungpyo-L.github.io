@@ -4,7 +4,12 @@
       <div class="row no-gutters">
         {% if project.img %}
           <div class="col-md-6">
-            {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 156px, 50vw" alt="project thumbnail" class="card-img" %}
+            {% assign img_ext = project.img | split: '.' | last %}
+            {% if img_ext == 'mp4' %}
+              {% include video.liquid path=project.img class="card-img" autoplay=true loop=true muted=true playsinline=true %}
+            {% else %}
+              {% include figure.liquid loading="eager" path=project.img sizes="(min-width: 768px) 156px, 50vw" alt="project thumbnail" class="card-img" %}
+            {% endif %}
           </div>
         {% endif %}
         <div class="{% if project.img %}col-md-6{% else %}col-md-12{% endif %}">

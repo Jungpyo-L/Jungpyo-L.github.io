@@ -4,7 +4,7 @@ title: Smart Suction Cup
 description: Multi-chamber suction end effector with internal airflow sensing and haptic search for robust industrial grasping. UC Berkeley, Embodied Dexterity Group.
 importance: 1
 category: Robotics
-img: assets/img/publication_preview/Preview_HapticSearch.gif
+img: assets/img/publication_preview/Preview_HapticSearch.mp4
 ---
 
 ## The Smart Suction Cup

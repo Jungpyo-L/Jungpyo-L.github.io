@@ -4,7 +4,7 @@ title: Ultrasound Neuromodulation
 description: Ultrasound-based neuromodulation. Yonsei University and KIST.
 importance: 5
 category: Neural engineering
-img: assets/img/publication_preview/Preview_pMUT.gif
+img: assets/img/publication_preview/Preview_pMUT.mp4
 ---
 
 ## Overview
