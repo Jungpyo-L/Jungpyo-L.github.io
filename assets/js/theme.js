@@ -266,11 +266,16 @@ let transTheme = () => {
 };
 
 // Determine the expected state of the theme toggle, which can be "dark", "light", or
-// "system". Default is "system".
+// "system". Default is "light".
 let determineThemeSetting = () => {
+  // One-time reset: earlier versions saved "system" for every visitor on first load.
+  if (localStorage.getItem("theme-default") != "light") {
+    localStorage.setItem("theme-default", "light");
+    localStorage.removeItem("theme");
+  }
   let themeSetting = localStorage.getItem("theme");
   if (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") {
-    themeSetting = "system";
+    themeSetting = "light";
   }
   return themeSetting;
 };

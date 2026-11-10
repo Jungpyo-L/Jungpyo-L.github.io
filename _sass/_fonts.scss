@@ -1,0 +1,24 @@
+/*****************************
+ * Site fonts (Hanken Grotesk body, Cormorant headings)
+ *****************************/
+
+body {
+  font-family:
+    "Hanken Grotesk",
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+.post-title,
+.card-title,
+.navbar-brand {
+  font-family: "Cormorant", Georgia, serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
